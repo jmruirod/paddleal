@@ -26,7 +26,7 @@ const emit = defineEmits(["remove-from-cart", "decrease-quantity", "increase-qua
 
     <div class="font-bold text-base sm:text-3xl self-end">{{ `${cartItem.price} €` }}</div>
 
-    <div class="flex justify-center items-center gap-3 justify-self-center self-end text-base sm:text-xl">
+    <div class="flex justify-center items-center gap-2 sm:gap-3 justify-self-center self-end text-base sm:text-xl">
       <button
         type="button"
         class="bg-zinc-700 hover:bg-zinc-600 active:bg-zinc-700 text-white font-black px-3 sm:px-4 rounded-md active:scale-95 transition-all duration-300"

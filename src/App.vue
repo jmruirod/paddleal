@@ -76,7 +76,7 @@ const removeFromCart = (id: number) => {
     showCancelButton: true,
     cancelButtonText: "Cancelar",
     confirmButtonText: "Eliminar",
-    confirmButtonColor: "oklch(75% 0.183 55.934)",
+    confirmButtonColor: "oklch(59.2% 0.249 0.584)",
   }).then((result) => {
     if (result.isConfirmed) {
       cart.value = cart.value.filter((cart) => cart.id !== id);
@@ -91,7 +91,7 @@ const clearCart = () => {
     showCancelButton: true,
     cancelButtonText: "Cancelar",
     confirmButtonText: "Vaciar",
-    confirmButtonColor: "oklch(75% 0.183 55.934)",
+    confirmButtonColor: "oklch(59.2% 0.249 0.584)",
   }).then((result) => {
     if (result.isConfirmed) {
       cart.value = [];

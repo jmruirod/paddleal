@@ -89,7 +89,7 @@ const closeCart = (event: MouseEvent) => {
             />
 
             <div class="p-4 hidden hover:block absolute top-8 -right-3" :class="{ '!flex': isCartOpen }" @click="closeCart($event)">
-              <div class="bg-white p-4 w-[355px] sm:w-xl flex flex-col gap-2 shadow-lg rounded-md" @click.stop>
+              <div class="bg-white p-4 w-[310px] sm:w-xl flex flex-col gap-2 shadow-lg rounded-md" @click.stop>
                 <p v-if="cart.length === 0" class="text-center py-2 text-zinc-600">El carrito esta vacio</p>
                 <div v-else>
                   <ShoppingCartItem
