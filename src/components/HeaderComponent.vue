@@ -69,7 +69,7 @@ const closeCart = (event: MouseEvent) => {
         <a href="/">
           <div class="flex justify-center md:justify-start">
             <div class="flex items-center justify-center">
-              <img src="/paddleal/img/padelIcon128.png" alt="icono padel" class="-ml-10" />
+              <img src="/img/padelIcon128.png" alt="icono padel" class="-ml-10" />
             </div>
             <div class="-ml-9">
               <p class="text-white text-7xl font-bold">Padel<span class="text-pink-600 font-black">AL</span></p>
@@ -83,7 +83,7 @@ const closeCart = (event: MouseEvent) => {
             <img
               class="max-w-full h-auto"
               :class="{ 'scale-90 transition-all': isCartOpen }"
-              src="/paddleal/img/basket.png"
+              src="/img/basket.png"
               alt="imagen carrito"
               @click="toggleCart()"
             />
