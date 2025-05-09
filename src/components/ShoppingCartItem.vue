@@ -14,7 +14,7 @@ const emit = defineEmits(["remove-from-cart", "decrease-quantity", "increase-qua
 
 <template>
   <div class="grid grid-cols-[minmax(0,1fr)_minmax(0,2fr)_minmax(0,1fr)] grid-rows-2">
-    <img class="w-full h-auto row-span-2" :src="`/img/${cartItem.image}.jpg`" :alt="cartItem.name" />
+    <img class="w-full h-auto row-span-2" :src="`/paddleal/img/${cartItem.image}.jpg`" :alt="cartItem.name" />
 
     <div class="text-base sm:text-xl">{{ cartItem.name }}</div>
 

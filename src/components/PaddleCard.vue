@@ -14,7 +14,7 @@ const emit = defineEmits(["add-to-cart"]);
 <template>
   <div class="flex max-w-[500px] shadow-sm rounded-md p-4">
     <div class="w-full h-auto flex items-center">
-      <img :src="`/img/${paddle.image}.jpg`" :alt="paddle.name" />
+      <img :src="`/paddleal/img/${paddle.image}.jpg`" :alt="paddle.name" />
     </div>
     <div class="flex flex-col gap-3">
       <h3 class="uppercase text-sm xs:text-2xl font-bold">{{ paddle.name }}</h3>
